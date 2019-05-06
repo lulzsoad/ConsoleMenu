@@ -10,6 +10,7 @@ namespace ConsoleMenu
     {
         static void Main(string[] args)
         {
+            Menu.StartMenu();
         }
     }
 }
