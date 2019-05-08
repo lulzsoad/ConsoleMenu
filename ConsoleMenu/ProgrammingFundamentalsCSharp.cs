@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleMenu
 {
-    static class Menu
+    static class ProgrammingFundamentalsCSharp
     {
-        static string[] menuOptions = {"Programming Fundamentals C#", "Architecture of computer systems", "Zadanie 3" };
+        static string[] menuOptions = {"Exercise 1", "Exercise 2"};
         static int activeMenuOption = 0;
 
         public static void StartMenu()
@@ -27,7 +27,7 @@ namespace ConsoleMenu
         static void MenuShow()
         {
             Console.Clear();
-            Console.WriteLine(">>> Main Menu <<<");
+            Console.WriteLine(">>> Programming Fundamentals C# - Exercises <<<");
             Console.WriteLine();
 
             for (int i = 0; i < menuOptions.Length; i++)
@@ -65,26 +65,19 @@ namespace ConsoleMenu
                 }
                 else if (key.Key == ConsoleKey.Escape)
                 {
-                    activeMenuOption = menuOptions.Length - 1;
+                    Menu.StartMenu();
                     break;
                 }
                 else if (key.Key == ConsoleKey.Enter)
                 {
-                    RunOption();
+                    //RunOption();
                     break;
                 }
             }
             while (true);
         }
 
-        static void RunOption()
-        {
-            switch (activeMenuOption)
-            {
-                case 0:
-                    ProgrammingFundamentalsCSharp.StartMenu();
-                    break;
-            }
-        }
+        public static void RunOption()
+        { }
     }
 }
