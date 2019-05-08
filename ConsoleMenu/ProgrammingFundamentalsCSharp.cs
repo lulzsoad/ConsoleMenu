@@ -78,6 +78,13 @@ namespace ConsoleMenu
         }
 
         public static void RunOption()
-        { }
+        {
+            switch (activeMenuOption)
+            {
+                case 0:
+                    Programming_Fundamentals_Exercises.Exercise1.Start();
+                    break;
+            }
+        }
     }
 }
