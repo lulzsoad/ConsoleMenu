@@ -8,7 +8,7 @@ namespace ConsoleMenu
 {
     static class ProgrammingFundamentalsCSharp
     {
-        static string[] menuOptions = {"Exercise 1", "Exercise 2"};
+        static string[] menuOptions = {"Exercise 1", "Exercise 2", "Exercise 3"};
         static int activeMenuOption = 0;
 
         public static void StartMenu()
@@ -86,6 +86,9 @@ namespace ConsoleMenu
                     break;
                 case 1:
                     Programming_Fundamentals_Exercises.Exercise2.Start();
+                    break;
+                case 2:
+                    Programming_Fundamentals_Exercises.Exercise3.Start();
                     break;
             }
         }

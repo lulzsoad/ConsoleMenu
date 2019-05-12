@@ -46,6 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Programming Fundamentals Exercises\Exercise1.cs" />
     <Compile Include="Programming Fundamentals Exercises\Exercise2.cs" />
+    <Compile Include="Programming Fundamentals Exercises\Exercise3.cs" />
     <Compile Include="Programming Fundamentals Exercises\Template.cs" />
     <Compile Include="ProgrammingFundamentalsCSharp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
