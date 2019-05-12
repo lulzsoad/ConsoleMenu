@@ -19,7 +19,7 @@ namespace ConsoleMenu.Programming_Fundamentals_Exercises
             Console.Clear();
             Console.WriteLine("Declare two integer variables and assign arbitrary values to them. Print to the console the result of adding these two numbers up.\n");
             Console.WriteLine("Code:\n");
-            Console.WriteLine("\tint a, b, result;\n\tstring aText, bText;\n\n\tConsole.WriteLine(\"Enter first number:\");\n\taText = Console.ReadLine();\n\tConsole.WriteLine(\"Enter second number: \");\n\tbText = Console.ReadLine();\n\n\tint.TryParse(aText, out a);\n\tint.TryParse(bText, out b);\n\n\tresult = a + b;\n\n\tConsole.WriteLine(\"{0} + {1} = {2}\", a, b, result); ");
+            Console.WriteLine("\tint a, b, result;\n\tstring aText, bText;\n\n\tConsole.WriteLine(\"Enter first number:\");\n\taText = Console.ReadLine();\n\tConsole.WriteLine(\"Enter second number: \");\n\tbText = Console.ReadLine();\n\n\tint.TryParse(aText, out a);\n\tint.TryParse(bText, out b);\n\n\tresult = a + b;\n\n\tConsole.WriteLine(\\n\"{0} + {1} = {2}\", a, b, result); ");
         }
 
         static void Code()
@@ -41,7 +41,7 @@ namespace ConsoleMenu.Programming_Fundamentals_Exercises
 
                 result = a + b;
 
-                Console.WriteLine("{0} + {1} = {2}", a, b, result);
+                Console.WriteLine("\n{0} + {1} = {2}", a, b, result);
             }
         }
 

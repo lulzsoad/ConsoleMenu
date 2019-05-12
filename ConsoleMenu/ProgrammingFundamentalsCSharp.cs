@@ -84,6 +84,9 @@ namespace ConsoleMenu
                 case 0:
                     Programming_Fundamentals_Exercises.Exercise1.Start();
                     break;
+                case 1:
+                    Programming_Fundamentals_Exercises.Exercise2.Start();
+                    break;
             }
         }
     }
